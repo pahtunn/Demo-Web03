@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    content: "";
+}
+html{
+    background-color: gray;
+}
+/*Header*/
+#header{
+    background-image: url(../imgs/flywheel.jpg);
+    display: inline-block;
+    height: 200px;
+    width: 960px;
+    margin-top: 10px;   
+    text-align: center;
+}
+#header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+#header .nav{
+    margin-top: 54px;
+}
+#header .nav .nav-item{
+    display: inline-block;
+}
+#header .nav .nav-link{
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    color: #000;
+    background-color: #fff;
+    line-height: 40px;
+    opacity: 40%;
+    border-radius: 10px;
+    margin: auto 20px auto 10px;
+}
+#header .nav .nav-link:hover{
+    opacity: 100%;
+    transition: 1s;
+    transform: rotate(25deg);
+}
+/*Main content*/
+
+#main-content{
+    display: flex;
+}
+#sidebar{
+    height: 450px;
+    margin-bottom: 20px;
+    flex: 25%;
+    text-align: right;
+}
+#sidebar .sub-nav{
+    display: inline-block;
+    list-style: none;
+    background-color: #00ee22;
+
+}
+#sidebar .img-sidebar{
+    width: 184px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#all-content{
+    flex: 75%;
+}
+
+#all-content .wra-cont{
+    width: 60%;
+    display: inline-block;
+    height: 100%;
+}
